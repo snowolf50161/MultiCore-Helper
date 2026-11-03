@@ -1,0 +1,15 @@
+{
+  "itemGroup.forcedmulticore": "MultiCore Helper",
+  "item.forcedmulticore.cpu_core": "CPU 核心",
+  "advancements.forcedmulticore.fine_ill_do_it_myself.title": "Fine, I'll do it myself.",
+  "advancements.forcedmulticore.fine_ill_do_it_myself.description": "玩家：多核心呢？\nMC：Soon™\n我們：Fine, I'll do it myself."
+  ,"key.categories.forcedmulticore": "MultiCore Helper"
+  ,"key.categories.forcedmulticore.controls": "MultiCore Helper"
+  ,"key.category.forcedmulticore.controls": "MultiCore Helper"
+  ,"key.forcedmulticore.toggle_debug": "切換 F3 CPU 資訊"
+  ,"advancements.forcedmulticore.oh_my_pc.title": "Oh My PCCCCCC!"
+  ,"advancements.forcedmulticore.oh_my_pc.description": "你的 CPU 有 4 秒鐘可以準備。"
+  ,"advancements.forcedmulticore.oh_no.title": "OH NOOOOOO!"
+  ,"advancements.forcedmulticore.oh_no.description": "這不在效能測試計畫裡。"
+  ,"message.forcedmulticore.update_available": "[MultiCore Helper] 有可用更新：%s -> %s。CurseForge："
+}

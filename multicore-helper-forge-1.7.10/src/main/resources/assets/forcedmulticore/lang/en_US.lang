@@ -1,0 +1,11 @@
+itemGroup.forcedmulticore=MultiCore Helper
+item.forcedmulticore.cpu_core.name=CPU Core
+achievement.forcedmulticore.fine_ill_do_it_myself=Fine, I'll do it myself.
+achievement.forcedmulticore.fine_ill_do_it_myself.desc=Player: Multicore? MC: Soon\u2122 Us: Fine, I'll do it myself.
+key.categories.forcedmulticore=MultiCore Helper
+key.forcedmulticore.toggle_debug=Toggle F3 CPU Information
+achievement.forcedmulticore.oh_my_pc=Oh My PCCCCCC!
+achievement.forcedmulticore.oh_my_pc.desc=Your CPU has 4 seconds to prepare.
+achievement.forcedmulticore.oh_no=OH NOOOOOO!
+achievement.forcedmulticore.oh_no.desc=This was not part of the benchmark.
+message.forcedmulticore.update_available=[MultiCore Helper] Update available: %s -> %s. CurseForge:

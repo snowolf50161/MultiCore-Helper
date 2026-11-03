@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT"
+issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/multicore-helper"
+
+[[mods]]
+modId="forcedmulticore"
+version="${mod_version}"
+displayName="MultiCore Helper"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/multicore-helper"
+logoFile="forcedmulticore.png"
+credits="Built for Minecraft Forge 1.19.4"
+authors="snowolf50161"
+description='''
+CPU utility features for Minecraft Forge 1.19.4 modpacks.
+
+This mod creates a capped low-priority worker thread pool for safe background work, reports CPU usage in F3,
+and adds entity pressure diagnostics/cleanup tools for large singleplayer or server worlds.
+
+It does not rewrite Minecraft's main-thread world tick into a fully parallel engine.
+'''
+
+[[dependencies.forcedmulticore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45.1.0,46)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forcedmulticore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"

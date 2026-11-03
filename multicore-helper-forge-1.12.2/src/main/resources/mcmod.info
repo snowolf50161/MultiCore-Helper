@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "forcedmulticore",
+    "name": "MultiCore Helper",
+    "description": "Safe adaptive multicore helper, entity pressure diagnostics, cleanup tools, and optional F3 CPU information.",
+    "version": "${version}",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["snowolf50161"],
+    "credits": "Built for Minecraft Forge 1.12.2",
+    "logoFile": "forcedmulticore.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

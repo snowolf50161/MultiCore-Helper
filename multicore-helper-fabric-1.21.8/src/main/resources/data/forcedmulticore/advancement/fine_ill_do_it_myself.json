@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "forcedmulticore:cpu_core"
+    },
+    "title": {
+      "translate": "advancements.forcedmulticore.fine_ill_do_it_myself.title"
+    },
+    "description": {
+      "translate": "advancements.forcedmulticore.fine_ill_do_it_myself.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "joined_world": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

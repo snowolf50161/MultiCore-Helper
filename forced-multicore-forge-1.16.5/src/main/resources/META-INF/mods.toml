@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+issueTrackerURL="https://example.invalid"
+
+[[mods]]
+modId="forcedmulticore"
+version="${file.jarVersion}"
+displayName="Forced MultiCore CPU"
+displayURL="https://example.invalid"
+logoFile="forcedmulticore.png"
+credits="Built locally for Minecraft Forge 1.16.5"
+authors="snowolf50161"
+description='''
+Adds CPU utility features for Minecraft Forge 1.16.5 modpacks.
+
+This mod creates a capped low-priority worker thread pool for safe background work, reports CPU usage in F3,
+and adds entity pressure diagnostics/cleanup tools for large singleplayer or server worlds.
+
+It does not rewrite Minecraft's main-thread world tick into a fully parallel engine.
+'''
+
+[[dependencies.forcedmulticore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.33,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forcedmulticore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

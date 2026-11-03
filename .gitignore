@@ -1,0 +1,13 @@
+**/.gradle/
+**/build/
+**/run/
+**/test-server/
+**/backups/
+**/compat-libs/
+**/logs/
+**/.idea/
+**/*.log
+**/*.sparkprofile
+**/.env*
+**/*.pem
+**/*.key

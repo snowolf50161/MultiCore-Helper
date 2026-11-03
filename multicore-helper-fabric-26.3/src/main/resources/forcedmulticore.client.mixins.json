@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.example.forcedmulticore.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "DebugScreenOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "forcedmulticore:fine_ill_do_it_myself",
+  "display": {
+    "icon": { "id": "minecraft:tnt" },
+    "title": { "translate": "advancements.forcedmulticore.oh_my_pc.title" },
+    "description": { "translate": "advancements.forcedmulticore.oh_my_pc.description" },
+    "frame": "goal", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "ignited": { "trigger": "minecraft:impossible" } }
+}

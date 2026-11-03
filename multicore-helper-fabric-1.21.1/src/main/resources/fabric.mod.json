@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "forcedmulticore",
+  "version": "${version}",
+  "name": "MultiCore Helper",
+  "description": "CPU utility mod with worker-thread background processing and entity pressure tools.",
+  "authors": [
+    "snowolf50161"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/multicore-helper"
+  },
+  "license": "MIT",
+  "icon": "forcedmulticore.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.forcedmulticore.MultiCoreHelperFabric"
+    ],
+    "client": [
+      "com.example.forcedmulticore.MultiCoreHelperFabricClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "forcedmulticore.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "java": ">=21"
+  },
+  "suggests": {
+    "sodium": "*",
+    "lithium": "*"
+  }
+}

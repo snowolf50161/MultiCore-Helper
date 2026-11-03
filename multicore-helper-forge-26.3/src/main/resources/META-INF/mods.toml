@@ -1,0 +1,42 @@
+# See https://docs.minecraftforge.net/en/1.21.x/gettingstarted/modfiles/#modstoml
+# There are lots of things you can do with the mods.toml, and not all fields are included with this MDK
+# References: https://github.com/MinecraftForge/MDKExamples
+
+modLoader="javafml"
+loaderVersion="[66,)"
+license="MIT"
+issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/multicore-helper"
+#clientSideOnly=true #optional, default=false
+
+[[mods]]
+modId="forcedmulticore"
+version="1.0.1"
+displayName="MultiCore Helper"
+#updateJSONURL="https://example.com/updates.json" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/multicore-helper"
+logoFile="forcedmulticore.png"
+credits="Built for Minecraft Forge 26.3"
+authors="snowolf50161"
+#displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
+
+description='''
+CPU utility features for Minecraft Forge 26.3 modpacks.
+
+This mod creates a capped low-priority worker thread pool for safe background work, reports CPU usage through its
+toggleable debug display, and adds entity pressure diagnostics and cleanup tools. It does not rewrite Minecraft's
+main-thread world tick into a fully parallel engine.
+'''
+
+[[dependencies.forcedmulticore]] #recommended
+    modId="forge"
+    mandatory=true
+    versionRange="[66,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forcedmulticore]] #recommended
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.3,26.4,)"
+    ordering="NONE"
+    side="BOTH"

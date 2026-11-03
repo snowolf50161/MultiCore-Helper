@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "item": "forcedmulticore:cpu_core" },
+    "title": { "translate": "advancements.forcedmulticore.fine_ill_do_it_myself.title" },
+    "description": { "translate": "advancements.forcedmulticore.fine_ill_do_it_myself.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "started": { "trigger": "minecraft:tick" }
+  }
+}

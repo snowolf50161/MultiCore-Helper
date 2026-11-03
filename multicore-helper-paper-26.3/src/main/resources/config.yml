@@ -1,0 +1,5 @@
+# Main-thread sampling interval; minimum 100 ticks (5 seconds at 20 TPS).
+sample-interval-ticks: 200
+# Bounds aggregate snapshot size. Reports explicitly mark partial samples.
+max-worlds: 64
+# This release has no automatic entity cleanup or global executor tuning.

@@ -1,0 +1,11 @@
+itemGroup.forcedmulticore=MultiCore Helper
+item.forcedmulticore.cpu_core.name=CPU 核心
+achievement.forcedmulticore.fine_ill_do_it_myself=Fine, I'll do it myself.
+achievement.forcedmulticore.fine_ill_do_it_myself.desc=玩家：多核心呢？ MC：Soon\u2122 我们：Fine, I'll do it myself.
+key.categories.forcedmulticore=MultiCore Helper
+key.forcedmulticore.toggle_debug=切换 F3 CPU 信息
+achievement.forcedmulticore.oh_my_pc=Oh My PCCCCCC!
+achievement.forcedmulticore.oh_my_pc.desc=你的 CPU 有 4 秒钟可以准备。
+achievement.forcedmulticore.oh_no=OH NOOOOOO!
+achievement.forcedmulticore.oh_no.desc=这不在性能测试计划里。
+message.forcedmulticore.update_available=[MultiCore Helper] 有可用更新：%s -> %s。CurseForge：

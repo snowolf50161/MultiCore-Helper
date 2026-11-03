@@ -1,0 +1,15 @@
+{
+  "parent": "forcedmulticore:oh_my_pc",
+  "display": {
+    "icon": { "item": "minecraft:tnt" },
+    "title": { "translate": "advancements.forcedmulticore.oh_no.title" },
+    "description": { "translate": "advancements.forcedmulticore.oh_no.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ignited": { "trigger": "minecraft:impossible" }
+  }
+}

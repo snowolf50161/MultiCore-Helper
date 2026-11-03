@@ -1,0 +1,17 @@
+name: MultiCoreHelper
+version: '${version}'
+main: com.example.multicorehelper.paper.MultiCoreHelperPlugin
+api-version: '26.3'
+description: Read-only server monitoring and bounded snapshot analysis for Paper.
+author: snowolf50161
+website: https://www.curseforge.com/minecraft/mc-mods/multicore-helper
+softdepend: [Geyser-Spigot, floodgate]
+commands:
+  multicorehelper:
+    description: Status, snapshot analysis, and explicit save-all.
+    aliases: [mch]
+    permission: multicorehelper.admin
+    usage: /<command> <status|analyze|save>
+permissions:
+  multicorehelper.admin:
+    default: op

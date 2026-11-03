@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "forcedmulticore",
+    "name": "MultiCore Helper",
+    "description": "CPU utility mod for Minecraft Forge 1.7.10 modpacks. Uses a capped low-priority worker pool for safe background snapshot processing, reports CPU usage in F3, and adds entity pressure diagnostics and cleanup commands.",
+    "version": "${version}",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["snowolf50161"],
+    "credits": "Built for legacy Forge modpacks.",
+    "logoFile": "forcedmulticore.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

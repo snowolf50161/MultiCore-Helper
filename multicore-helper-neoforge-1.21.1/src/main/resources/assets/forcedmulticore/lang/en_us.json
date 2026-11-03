@@ -1,0 +1,13 @@
+{
+  "itemGroup.forcedmulticore": "Forced MultiCore CPU",
+  "item.forcedmulticore.cpu_core": "CPU Core",
+  "advancements.forcedmulticore.fine_ill_do_it_myself.title": "Fine, I'll do it myself.",
+  "advancements.forcedmulticore.fine_ill_do_it_myself.description": "Player: Multicore?\nMC: Soon™\nUs: Fine, I'll do it myself."
+  ,"key.categories.forcedmulticore": "MultiCore Helper"
+  ,"key.forcedmulticore.toggle_debug": "Toggle F3 CPU Information"
+  ,"advancements.forcedmulticore.oh_my_pc.title": "Oh My PCCCCCC!"
+  ,"advancements.forcedmulticore.oh_my_pc.description": "Your CPU has 4 seconds to prepare."
+  ,"advancements.forcedmulticore.oh_no.title": "OH NOOOOOO!"
+  ,"advancements.forcedmulticore.oh_no.description": "This was not part of the benchmark."
+  ,"message.forcedmulticore.update_available": "[MultiCore Helper] Update available: %s -> %s. CurseForge:"
+}
